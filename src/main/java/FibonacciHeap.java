@@ -6,8 +6,6 @@ import java.util.ArrayList;
 public class FibonacciHeap {
 
     public static void main(String[] args) throws IOException {
-        // put your code here
-
         System.out.print("Введите два числа из диапозонов [1, 10^18] и [2, 10^5]: ");
         String str = new BufferedReader(new InputStreamReader(System.in)).readLine();
         String[] numbers = str.split(" ");
